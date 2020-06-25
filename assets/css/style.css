@@ -412,7 +412,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Yasas/background2.jpg") top center;
+  background: url("../img/Yasas/welcome-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -1084,19 +1084,19 @@ section {
 
 
 /*--------------------------------------------------------------
-# Services2
+# services
 --------------------------------------------------------------*/
 
-.services2 .container{
+.services .container{
   margin-bottom: 50px;
 }
 
-.services2 .row{
+.services .row{
   vertical-align: middle; 
   align-items: center;
 }
 
-.services2 h1 {
+.services h1 {
   font-weight: 600;
   font-size: 35px;
   font-family: "Poppins", sans-serif;
@@ -1105,35 +1105,35 @@ section {
 
 }
 
-.services2 p{
+.services p{
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.services2.content h1 {
+.services.content h1 {
   font-weight: 600;
   font-size: 45px;
   font-family: "Poppins", sans-serif;
 }
 
 
-.services2.content h3 {
+.services.content h3 {
   font-weight: 600;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
 }
 
-.services2.content ul {
+.services.content ul {
   list-style: none;
   padding: 0;
 }
 
-.services2.content ul li {
+.services.content ul li {
   padding: 0 0 8px 26px;
   position: relative;
 }
 
-.services2.content ul i {
+.services.content ul i {
   position: absolute;
   font-size: 20px;
   left: 0;
@@ -1141,7 +1141,7 @@ section {
   color: #51bfff;
 }
 
-.services2.content p:last-child {
+.services.content p:last-child {
   margin-bottom: 0;
 }
 
@@ -1232,28 +1232,21 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Careers
 --------------------------------------------------------------*/
-
-.services h1 {
-  font-weight: 600;
-  font-size: 45px;
-  font-family: "Poppins", sans-serif;
-
-}
-.services .icon-box {
+.careers .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
+  border: 1px solid #ffffff;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
 
-.services .icon-box .icon {
+.careers .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #51bfff;
+  background: transparent;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -1262,38 +1255,41 @@ section {
   transition: 0.3s;
 }
 
-.services .icon-box .icon i {
-  color: #151515;
-  font-size: 28px;
+.careers .icon-box .icon i {
+  color: #31acf3;;
+  font-size: 60px;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box h4 {
+.careers .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.careers .icon-box h4 a {
   color: #151515;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box h4 a:hover {
+.careers .icon-box h4 a:hover {
   color: #51bfff;
 }
 
-.services .icon-box p {
+.careers .icon-box p {
+  font-weight: 500;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+/*.careers .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
-}
+}*/
+
+
 
 /*--------------------------------------------------------------
 # Cta
