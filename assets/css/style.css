@@ -1650,6 +1650,8 @@ section {
 }
 
 .team .member {
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
