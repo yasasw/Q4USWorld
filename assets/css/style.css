@@ -417,6 +417,82 @@ h6 {
   position: relative;
 }
 
+
+
+
+
+
+#hero .carousel-item {
+  width: 100%;
+  height: calc(100vh - 114px);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#hero .carousel-item::before {
+  content: '';
+  background-color: rgba(13, 30, 45, 0);
+  /*Original> (13, 30, 45, 0.6)*/
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+#hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 60vw;
+  right: 0;
+  overflow: auto;
+}
+
+#hero .carousel-content {
+  background-color: #000000;
+  opacity: 0.8;
+  text-align: left;
+  width: 300px;
+  padding-right: 0;
+  padding-left: 10;
+
+
+  /*  padding: 20px 55px 15px 35px;
+  display: block;*/
+}
+
+@media (max-width: 992px) {
+
+  #hero,
+  #hero .carousel-item {
+    height: calc(100vh - 70px);
+
+  }
+
+  #hero .carousel-content.container {
+    padding: 300px 300px;
+    height: 70vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
